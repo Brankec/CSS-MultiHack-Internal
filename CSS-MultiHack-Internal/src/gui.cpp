@@ -23,12 +23,12 @@ LRESULT CALLBACK WindowProcess(
 
 bool gui::SetupWindowClass(const char* windowClassName) noexcept
 {
-	windowClass.cbSize = sizeof(WNDCLASSEX);
+	windowClass.cbSize = sizeof(WNDCLASSEXA);
 	windowClass.style = CS_HREDRAW | CS_VREDRAW;
-	windowClass.lpfnWndProc = DefWindowProc;
+	windowClass.lpfnWndProc = DefWindowProcA;
 	windowClass.cbClsExtra = 0;
 	windowClass.cbWndExtra = 0;
-	windowClass.hInstance = GetModuleHandle(NULL);
+	windowClass.hInstance = GetModuleHandleA(NULL);
 	windowClass.hIcon = NULL;
 	windowClass.hCursor = NULL;
 	windowClass.hbrBackground = NULL;
@@ -36,7 +36,7 @@ bool gui::SetupWindowClass(const char* windowClassName) noexcept
 	windowClass.lpszClassName = windowClassName;
 	windowClass.hIconSm = NULL;
 
-	if (!RegisterClassEx(&windowClass))
+	if (!RegisterClassExA(&windowClass))
 	{
 		return FALSE;
 	}
@@ -46,7 +46,7 @@ bool gui::SetupWindowClass(const char* windowClassName) noexcept
 
 void gui::DestroyWindowClass() noexcept
 {
-	UnregisterClass(
+	UnregisterClassA(
 		windowClass.lpszClassName,
 		windowClass.hInstance
 	);
@@ -54,7 +54,7 @@ void gui::DestroyWindowClass() noexcept
 
 bool gui::SetupWindow(const char* windowName) noexcept
 {
-	window = CreateWindow(
+	window = CreateWindowA(
 		windowClass.lpszClassName,
 		windowName,
 		WS_OVERLAPPEDWINDOW,
@@ -86,7 +86,7 @@ void gui::DestroyWindow() noexcept
 
 bool gui::SetupDirectX() noexcept
 {
-	const auto handle = GetModuleHandle("d3d9.dll");
+	const auto handle = GetModuleHandle(L"d3d9.dll");
 
 	if (!handle)
 	{

@@ -8,7 +8,7 @@ namespace gui
 	inline bool setup = false;
 
 	inline HWND window = nullptr;
-	inline WNDCLASSEX windowClass = { };
+	inline WNDCLASSEXA windowClass = { };
 	inline WNDPROC originalWindowProcess = nullptr;
 
 	inline LPDIRECT3DDEVICE9 device = nullptr;

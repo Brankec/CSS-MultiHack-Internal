@@ -26,7 +26,7 @@ void Setup(const HMODULE instance)
 	catch (const std::exception& error)
 	{
 		MessageBeep(MB_ICONERROR);
-		MessageBox(
+		MessageBoxA(
 			0,
 			error.what(),
 			"Error",
@@ -38,8 +38,8 @@ void Setup(const HMODULE instance)
 
 	while (!GetAsyncKeyState(VK_END))
 	{
-		uintptr_t client = reinterpret_cast<std::uintptr_t>(GetModuleHandle("client.dll"));
-		uintptr_t engine = reinterpret_cast<std::uintptr_t>(GetModuleHandle("engine.dll"));
+		uintptr_t client = reinterpret_cast<std::uintptr_t>(GetModuleHandleA("client.dll"));
+		uintptr_t engine = reinterpret_cast<std::uintptr_t>(GetModuleHandleA("engine.dll"));
 
 		uintptr_t localPlayer = *reinterpret_cast<std::uintptr_t*>(client + offset::m_dwLocalPlayer);
 
