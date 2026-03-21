@@ -1,5 +1,6 @@
 #include "gui.h"
 #include "globals.h"
+#include "crosshair.h"
 
 #include "../ext/imgui/imgui.h"
 #include "../ext/imgui/imgui_impl_win32.h"
@@ -220,14 +221,22 @@ void gui::Render() noexcept
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
-	if (ImGui::Begin("MultiHack Menu", &open))
+	if (open)
 	{
+		ImGui::Begin("MultiHack Menu", &open);
+
 		ImGui::Checkbox("Aimbot", &globals::bAimbot);
 		ImGui::Checkbox("Bunnyhop", &globals::bBunnyhop);
 		ImGui::Checkbox("Triggerbot", &globals::bTriggerbot);
+		ImGui::Checkbox("Crosshair", &globals::bCrosshair);
 		ImGui::Checkbox("Anti-Flash", &globals::bAntiFlash);
 
 		ImGui::End();
+	}
+
+	if (globals::bCrosshair)
+	{
+		crosshair::DrawCenterCrosshair();
 	}
 
 	ImGui::EndFrame();
