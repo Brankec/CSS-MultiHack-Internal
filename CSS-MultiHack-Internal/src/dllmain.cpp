@@ -45,7 +45,6 @@ void Setup(const HMODULE instance)
 
 		if (localPlayer)
 		{
-
 			if (globals::bAimbot)
 			{
 				aimbot::MyPlayer.ReadInformation(engine, client, localPlayer);
@@ -59,14 +58,13 @@ void Setup(const HMODULE instance)
 
 			if (globals::bTriggerbot)
 			{
-				triggerbot::Triggerbot(client, localPlayer);
+				triggerbot::Triggerbot(engine, client, localPlayer);
 			}
 
 			if (globals::bAntiFlash)
 			{
 				antiflash::AntiFlash(localPlayer);
 			}
-
 		}
 
 		std::this_thread::sleep_for(std::chrono::milliseconds(1));
