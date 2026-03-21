@@ -12,7 +12,7 @@ namespace triggerbot
     const uint32_t ATTACK_PRESS = 5;
     const uint32_t ATTACK_RELEASE = 4;
 
-    const float HEAD_RADIUS_UNITS = 6.0f;
+    const float HEAD_RADIUS_UNITS = 7.0f;
 
     void Triggerbot(uintptr_t engine, uintptr_t client, uintptr_t localPlayer)
     {
@@ -84,10 +84,10 @@ namespace triggerbot
                     if (attackFlag == ATTACK_RELEASE)
                     {
                         *reinterpret_cast<uint32_t*>(client + offset::m_dwForceAttack) = ATTACK_PRESS;
-                        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+                        std::this_thread::sleep_for(std::chrono::microseconds(1));
 
                         *reinterpret_cast<uint32_t*>(client + offset::m_dwForceAttack) = ATTACK_RELEASE;
-                        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+                        std::this_thread::sleep_for(std::chrono::microseconds(1));
                     }
                 }
             }
