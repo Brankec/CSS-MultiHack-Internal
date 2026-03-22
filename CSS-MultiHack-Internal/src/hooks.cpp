@@ -65,7 +65,7 @@ long __stdcall hooks::EndScene(IDirect3DDevice9* device) noexcept
 		gui::SetupMenu(device);
 	}
 
-	if (gui::open)
+	if (true)
 	{
 		gui::Render();
 	}
