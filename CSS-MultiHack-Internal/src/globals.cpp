@@ -1,6 +1,7 @@
 #include "globals.h"
 
-bool globals::bAimbot = true;
-bool globals::bBunnyhop = true;
+bool globals::bAimbot = false;
+bool globals::bBunnyhop = false;
 bool globals::bTriggerbot = false;
+bool globals::bCrosshair = false;
 bool globals::bAntiFlash = false;

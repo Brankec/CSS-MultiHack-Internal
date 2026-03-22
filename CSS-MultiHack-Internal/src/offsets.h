@@ -16,4 +16,31 @@ namespace offset
 	constexpr std::ptrdiff_t m_fFlags = 0x440;
 	constexpr std::ptrdiff_t m_iCrosshairId = 0x1B20;
 	constexpr std::ptrdiff_t m_flFlashMaxAlpha = 0x1A54;
+
+	constexpr std::ptrdiff_t m_vecViewOffset = 0x13C;
+	constexpr std::ptrdiff_t m_dwBoneMatrix = 0x810;
+	constexpr std::ptrdiff_t m_aimPunchAngle = 0x74;
+
+	constexpr std::ptrdiff_t dwClientState_Base = 0x53E458;
 }
+
+enum BoneID : int
+{
+	PELVIS = 0,
+	SPINE = 10,
+	CHEST = 11,
+	NECK = 12,
+	HEAD = 14,
+	LEFT_SHOULDER = 16,
+	LEFT_ELBOW = 17,
+	LEFT_HAND = 18,
+	RIGHT_SHOULDER = 29,
+	RIGHT_ELBOW = 30,
+	RIGHT_HAND = 31,
+	LEFT_HIP = 1,
+	LEFT_KNEE = 2,
+	LEFT_ANKLE = 3,
+	RIGHT_HIP = 5,
+	RIGHT_KNEE = 6,
+	RIGHT_ANKLE = 7
+};
