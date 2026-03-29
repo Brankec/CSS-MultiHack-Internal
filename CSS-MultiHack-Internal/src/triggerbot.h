@@ -1,7 +1,7 @@
 #pragma once
 
 #include "offsets.h"
-#include "../triggerbot_math.h"
+#include "triggerbot_math.h"
 #include <thread>
 #include <chrono>
 #include <cstdint>

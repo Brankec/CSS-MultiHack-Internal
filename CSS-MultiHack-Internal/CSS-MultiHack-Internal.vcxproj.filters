@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="dump">
+      <UniqueIdentifier>{2363ed91-a66c-4438-867a-b87e15f2bfaf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ext\imgui\imconfig.h">
@@ -85,6 +88,696 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\antiflash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\_LPT_m_AnimOverlay_15.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\_LPT_m_hActorList_16.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\_ST_m_AnimOverlay_15.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\_ST_m_hActorList_16.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CAI_BaseNPC.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CAnimationlayer.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CAnimTimeMustBeFirst.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseAnimating.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseAnimatingOverlay.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseBeam.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseCombatCharacter.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseCombatWeapon.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseCSGrenade.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseCSGrenadeProjectile.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseDoor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseEntity.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseFlex.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseGrenade.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseParticleEntity.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBasePlayer.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseProjectile.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBasePropDoor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseTeamObjectiveResource.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseTempEntity.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBaseViewModel.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBCCLocalPlayerExclusive.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBeam.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBeamPredictableId.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBoneFollower.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBreakableProp.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CBreakableSurface.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCFish.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCHostage.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCollisionProperty.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CColorCorrection.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CColorCorrectionVolume.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSGameRules.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSGameRulesProxy.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSLocalPlayerExclusive.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSNonLocalPlayerExclusive.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSPlayer.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSPlayerResource.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSRagdoll.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CCSTeam.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CDetailController.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CDustTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CDynamicLight.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CDynamicProp.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEffectData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEmbers.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEntityDissolve.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEntityFlame.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEntityParticleTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEntityParticleTrailInfo.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvParticleScript.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvProjectedTexture.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvScreenEffect.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvScreenOverlay.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvTonemapController.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvWind.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CEnvWindShared.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFireSmoke.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFireTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFlashbang.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFogController.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFootstepControl.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFunc_Dust.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFunc_LOD.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncAreaPortalWindow.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncConveyor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncLadder.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncMonitor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncOccluder.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncReflectiveGlass.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncRotating.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncSmokeVolume.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CFuncTrackTrain.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CGameRulesProxy.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CHandleTest.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CHEGrenade.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CInfoLadderDismount.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CInfoLightingRelative.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CInfoOverlayAccessor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLightGlow.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLocal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLocalActiveWeaponData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLocalActiveWeaponKnifeData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLocalPlayerExclusive.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CLocalWeaponData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CMaterialModifyControl.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CMovieExplosion.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CNextBot.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\COverlayVars.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CParticleFire.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CParticlePerformanceMonitor.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CParticleSmokeGrenade.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CParticleSystem.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPhysBox.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPhysBoxMultiplayer.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPhysicsProp.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPhysicsPropMultiplayer.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPhysMagnet.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPlantedC4.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPlasma.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPlayerResource.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPlayerState.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPointCamera.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPointCommentaryNode.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPointWorldText.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPoseController.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPrecipitation.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPredictableId.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPredictedViewModel.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPropJeep.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPropVehicleChoreoGeneric.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CPropVehicleDriveable.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CProxyToggle.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CProxyToggle_ProxiedData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CQuadraticBeam.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CRagdoll.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CRagdoll_Attached.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CRagdollManager.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CRocketTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CRopeKeyframe.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSceneEntity.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CServerAnimationData.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CShadowControl.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSlideshowDisplay.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSmokeGrenade.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSmokeStack.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSmokeTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSporeExplosion.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSporeTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSpotlightEnd.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSprite.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSpriteOriented.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSpriteTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSteamJet.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CSun.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTeam.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTeamplayRoundBasedRules.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTeamplayRoundBasedRulesProxy.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTeamTrainWatcher.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEArmorRicochet.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamEntPoint.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamEnts.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamFollow.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamLaser.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamPoints.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamRing.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamRingPoint.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBeamSpline.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBloodSprite.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBloodStream.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBreakModel.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBSPDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBubbles.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEBubbleTrail.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEClientProjectile.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEDust.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEDynamicLight.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEEffectDispatch.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEEnergySplash.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEExplosion.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEFireBullets.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEFizz.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEFootprintDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEGaussExplosion.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEGlowSprite.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEImpact.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEKillPlayerAttachments.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTELargeFunnel.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEMetalSparks.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEMuzzleFlash.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEParticleSystem.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEPhysicsProp.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEPlantBomb.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEPlayerAnimEvent.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEPlayerDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEProjectedDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTERadioIcon.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEShatterSurface.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEShowLine.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTesla.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTESmoke.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTESparks.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTESprite.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTESpriteSpray.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTestTraceline.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CTEWorldDecal.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CVGuiScreen.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CVoteController.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWaterBullet.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWaterLODControl.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponAK47.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponAug.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponAWP.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponC4.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponCSBase.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponCSBaseGun.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponCubemap.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponCycler.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponDEagle.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponElite.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponFamas.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponFiveSeven.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponG3SG1.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponGalil.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponGlock.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponKnife.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponM3.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponM4A1.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponM249.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponMAC10.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponMP5Navy.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponP90.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponP228.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponScout.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponSG550.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponSG552.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponTMP.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponUMP45.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponUSP.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWeaponXM1014.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\CWorld.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="css-x64-netvar-dump\Offsets.hpp">
+      <Filter>dump</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crosshair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\edgejump.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
